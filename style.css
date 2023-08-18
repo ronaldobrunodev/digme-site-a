@@ -1,0 +1,135 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    background-color: #ffffff;   
+}
+header img {   
+    margin: -35px 0px 0px 95%;  
+    font-weight: 900;
+    padding: 0 0 0 20px;
+    background-color: #de825d;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.container {
+    
+    margin: 0;
+    border-radius: 8px;
+    padding: 20px 65px;
+    background: linear-gradient(to bottom, rgba(49, 5, 79, 0.7), rgba(0, 0, 0, 1.9)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl03Sw9YuklyUl896UzjDBSY7oL1EnOLuvew&usqp=CAU);
+    background-size: cover; 
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+.row{
+    max-width: auto;
+    min-width: 350px;
+    margin: 0;
+}
+.row , img{
+    margin: 0;
+    padding: 0;
+    justify-content:center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;    
+}
+.logo-digme{
+    border: #e9561c solid 3px;
+    padding: 5px;   
+}
+.menu{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.header{    
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+.menu{ 
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-menu img{  
+    align-items: center;  
+    background-image: url("");
+    background-clip: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: solid 3px #E2480B;
+    height: 120px;
+    width: 120px;  
+    margin: 8px;        
+}
+.box-menu a{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+.box-menu, img, p{    
+    text-align: center;  
+    justify-content: center; 
+    align-items: center;    
+}
+footer{
+    padding: 0;
+    margin: 0;
+}
+footer .rodape{    
+    justify-content:center;
+    text-align: center;
+    margin-top: -80px;    
+}
+.rodape img{
+    margin-top: 100px; 
+}
+footer p{  
+    margin-top: -36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #de825d;
+}
+.rede-social ul, li, a{  
+    display: flex;
+    color: #E2480B;
+    list-style: none;
+    align-items: center;
+    justify-content:center;
+    margin: 2px ;
+    padding: 0px;
+    margin-top: 8px;
+    font-size: 25px;
+}
+.rede-social ul, li, a:hover{  
+    display: flex;
+    color: #c9c9c9;
+    list-style: none;
+    align-items: center;
+    justify-content:center;
+    margin: 2px ;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.rede-social .eng{
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
